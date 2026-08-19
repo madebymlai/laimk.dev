@@ -9,8 +9,17 @@ export const siteConfig = {
     github: "https://github.com/madebymlai",
   },
   aboutMe:
-    "TODO: two or three sentences about who you are and what you work on. This renders as the About section — keep it plain and specific, no buzzwords. Delete this and write your own.",
-  skills: ["TypeScript", "Python", "Rust", "PostgreSQL", "Docker", "AWS"],
+    "I work on systems that have to keep running. Most of what I build ends up in production and stays there: APIs, integrations, backend architecture, and the frontend that makes it usable.\n\nI care about code that's right rather than clever.\n\nOpen to full-time positions and freelance work.",
+  skills: [
+    "Java",
+    "Spring Boot",
+    "Python",
+    "SQL",
+    "REST APIs",
+    "Git",
+    "Docker",
+    "React",
+  ],
   projects: [
     {
       name: "TODO: Project name",
