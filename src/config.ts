@@ -31,6 +31,7 @@ export const siteConfig = {
         "Domain-Driven Design",
         "Hexagonal Architecture",
         "Reproducible Pipelines",
+        "Financial Data Engineering",
         "Systematic Trading",
       ],
     },
