@@ -38,11 +38,10 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Studio RS S.r.l. \u00b7 Pisa, Italy",
+      company: "Studio RS S.r.l. \u00b7 Retail & grocery software \u00b7 Pisa, Italy",
       title: "Software Engineer",
       dateRange: "May 2026 - Present",
       bullets: [
-        "Retail and grocery technology, within the Distribution Service group: the parent company covers hardware, Studio RS covers software.",
         "Develop and maintain the applications running in supermarket environments: point-of-sale, back-office, and store management systems used daily across retail chains.",
         "Work on production systems where downtime means checkout lines stop, so reliability and backwards compatibility matter more than novelty.",
       ],
