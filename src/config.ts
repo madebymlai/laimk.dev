@@ -15,7 +15,6 @@ export const siteConfig = {
     "Spring Boot",
     "Python",
     "PyTorch",
-    "Computer Vision",
     "SQL",
     "REST APIs",
     "Git",
