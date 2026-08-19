@@ -38,12 +38,22 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "TODO: Company",
-      title: "TODO: Role",
-      dateRange: "2024 - Present",
+      company: "Studio RS S.r.l. \u00b7 Pisa, Italy",
+      title: "Software Engineer",
+      dateRange: "May 2026 - Present",
       bullets: [
-        "What you built or owned",
-        "A result with a number in it if you have one",
+        "Develop and maintain the applications running in supermarket environments: point-of-sale, back-office, and store management systems used daily across retail chains.",
+        "Work on production systems where downtime means checkout lines stop, so reliability and backwards compatibility matter more than novelty.",
+        "Part of the Distribution Service group, a specialist in retail and grocery technology, where the parent company covers hardware and Studio RS covers software.",
+      ],
+    },
+    {
+      company: "Independent \u00b7 Remote",
+      title: "Freelance Software Engineer",
+      dateRange: "Aug 2023 - Apr 2026",
+      bullets: [
+        "Delivered projects for clients across Italy, from greenfield builds to maintaining and extending existing codebases.",
+        "Built full-stack accounting platforms and integrated data-driven systems.",
       ],
     },
   ],
