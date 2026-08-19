@@ -22,11 +22,11 @@ export const siteConfig = {
   ],
   projects: [
     {
-      name: "TODO: Project name",
+      name: "Aegis",
       description:
-        "One or two sentences on what it does and why it exists.",
-      link: "https://github.com/madebymlai",
-      skills: ["TypeScript", "Node.js"],
+        "An end-to-end systematic trading platform: one pipeline from research hypothesis to live execution, built as a monorepo of bounded contexts. Research scores and promotes a strategy as an immutable Lock, and execution trades exactly that Lock \u2014 the same component code running on both sides of the boundary, with every run writing a manifest of config, environment, and artifact hashes for reproducibility.",
+      link: "https://github.com/madebymlai/aegis",
+      skills: ["Python", "NautilusTrader", "Parquet", "Interactive Brokers"],
     },
   ],
   experience: [
