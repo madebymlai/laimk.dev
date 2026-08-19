@@ -1,0 +1,166 @@
+%-------------------------------------------------------------------------------
+% Resume in LaTeX
+% Based on Jake Gutierrez's template (MIT), itself based on sb2nov/resume
+% https://github.com/jakegut/resume
+%-------------------------------------------------------------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[a4paper,margin=1.4cm]{geometry}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Make the generated PDF machine readable / ATS parsable
+\pdfgentounicode=1
+
+%-------------------------------------------------------------------------------
+% Custom commands
+%-------------------------------------------------------------------------------
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Mikhail Lai} \\ \vspace{1pt}
+    \small
+    \href{mailto:mikhail@laimk.dev}{\underline{mikhail@laimk.dev}} $|$
+    \href{https://laimk.dev}{\underline{laimk.dev}} $|$
+    \href{https://github.com/madebymlai}{\underline{github.com/madebymlai}} $|$
+    \href{https://www.linkedin.com/in/mikhail-lai-138ba3411/}{\underline{linkedin.com/in/mikhail-lai}}
+\end{center}
+
+%----------SUMMARY----------
+\section{Summary}
+\vspace{2pt}
+\small{
+Software engineer working on systems that have to keep running. Most of what I
+build ends up in production and stays there: APIs, integrations, backend
+architecture, and the frontend that makes it usable. I care about code that is
+right rather than clever. Open to full-time positions and freelance work.
+}
+\vspace{-4pt}
+
+%----------EXPERIENCE----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Studio RS S.r.l.}{May 2026 -- Present}
+      {Software Engineer $\cdot$ Retail \& grocery software}{Pisa, Italy}
+      \resumeItemListStart
+        \resumeItem{Develop and maintain the applications running in supermarket
+        environments: point-of-sale, back-office, and store management systems
+        used daily across retail chains.}
+        \resumeItem{Work on production systems where downtime means checkout
+        lines stop, so reliability and backwards compatibility matter more than
+        novelty.}
+        \resumeItem{Building computer vision in PyTorch that recognises
+        groceries at the checkout and flags suspicious behaviour, a long-term
+        project with a major Italian grocery chain.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Independent}{Aug 2023 -- Apr 2026}
+      {Freelance Software Engineer}{Remote}
+      \resumeItemListStart
+        \resumeItem{Delivered projects for clients across Italy, from greenfield
+        builds to maintaining and extending existing codebases.}
+        \resumeItem{Built full-stack accounting platforms and integrated
+        data-driven systems.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%----------PROJECTS----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Aegis} $|$ \emph{Python, PyTorch, Domain-Driven Design} $|$
+          \href{https://github.com/madebymlai/aegis}{\underline{github.com/madebymlai/aegis}}}{}
+          \resumeItemListStart
+            \resumeItem{End-to-end systematic trading platform that carries a
+            strategy from research hypothesis all the way to live execution.}
+            \resumeItem{The same code that validates a strategy in backtesting
+            is the code that trades it live, so what gets tested is exactly what
+            runs.}
+            \resumeItem{Built as a monorepo of bounded contexts with a shared
+            execution kernel, ports and adapters isolating venue integrations,
+            and immutable run manifests for reproducibility.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%----------SKILLS----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, SQL, JavaScript} \\
+     \textbf{Frameworks \& Libraries}{: Spring Boot, PyTorch, React} \\
+     \textbf{Tools \& Practices}{: Git, Docker, REST APIs, Domain-Driven Design} \\
+    }}
+ \end{itemize}
+
+% %----------EDUCATION----------
+% Uncomment and fill in when ready.
+%
+% \section{Education}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {University Name}{Start -- End}
+%       {Degree}{City, Country}
+%   \resumeSubHeadingListEnd
+
+\end{document}
