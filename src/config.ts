@@ -58,5 +58,12 @@ export const siteConfig = {
       ],
     },
   ],
-  education: [],
+  education: [
+    {
+      school: "Universit\u00e0 degli Studi di Firenze",
+      degree: "Bachelor of Science in Computer Science",
+      dateRange: "Sep 2024 - Dec 2027 (expected)",
+      achievements: [],
+    },
+  ],
 };
