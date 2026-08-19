@@ -5,8 +5,7 @@ export const siteConfig = {
   accentColor: "#0d9488",
   social: {
     email: "mikhail@laimk.dev",
-    linkedin: "https://linkedin.com/in/CHANGEME",
-    twitter: "https://x.com/CHANGEME",
+    linkedin: "https://www.linkedin.com/in/mikhail-lai-138ba3411/",
     github: "https://github.com/madebymlai",
   },
   aboutMe:
