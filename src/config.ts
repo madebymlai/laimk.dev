@@ -24,7 +24,7 @@ export const siteConfig = {
     {
       name: "Aegis",
       description:
-        "An end-to-end systematic trading platform: one pipeline from research hypothesis to live execution, built as a monorepo of bounded contexts. Research scores and promotes a strategy as an immutable Lock, and execution trades exactly that Lock \u2014 the same component code running on both sides of the boundary, with every run writing a manifest of config, environment, and artifact hashes for reproducibility.",
+        "An end-to-end systematic trading platform that carries a strategy from research hypothesis all the way to live execution. The same code that validates a strategy in backtesting is the code that trades it live, so what gets tested is exactly what runs.",
       link: "https://github.com/madebymlai/aegis",
       skills: [
         "Python",
