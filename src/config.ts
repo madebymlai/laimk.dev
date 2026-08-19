@@ -14,6 +14,8 @@ export const siteConfig = {
     "Java",
     "Spring Boot",
     "Python",
+    "PyTorch",
+    "Computer Vision",
     "SQL",
     "REST APIs",
     "Git",
@@ -44,6 +46,7 @@ export const siteConfig = {
       bullets: [
         "Develop and maintain the applications running in supermarket environments: point-of-sale, back-office, and store management systems used daily across retail chains.",
         "Work on production systems where downtime means checkout lines stop, so reliability and backwards compatibility matter more than novelty.",
+        "Building computer vision in PyTorch that recognises groceries at the checkout and flags suspicious behaviour, an ongoing long-term project with Conad.",
       ],
     },
     {
